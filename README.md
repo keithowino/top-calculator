@@ -19,6 +19,9 @@ This is a follow up of The Odin Project course to sum up my skills in to attempt
     <a href="https://getbootstrap.com/" target="_blank"> 
         <img src="https://miro.medium.com/max/2000/1*9HanDsRU11ZMsgDGJwN96w.png" alt="bootstrap" width="40" height="40"/> 
     </a>
+    <a href="https://sass-lang.com/" target="_blank"> 
+        <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="sass" width="40" height="40"/> 
+    </a>
 </p>
 
 ## Development
