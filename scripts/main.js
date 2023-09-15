@@ -1,14 +1,14 @@
 "use strict";
 
-// const appName = "app name";
+const appName = "t-o-p calculator";
 
-// document.title = appName.toUpperCase();
+document.title = appName.toUpperCase();
 
-// const titleElement = document.querySelector("#js-s-t-s");
-// const siteTileRefElement = document.querySelector(".js-site-title-ref");
+const titleElement = document.querySelector("#js-s-t-s");
+const siteTileRefElement = document.querySelector(".js-site-title-ref");
 
-// titleElement.innerHTML = appName;
-// siteTileRefElement.innerHTML = appName;
+titleElement.innerHTML = appName;
+siteTileRefElement.innerHTML = appName;
 
 /*
 
