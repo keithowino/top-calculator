@@ -1,8 +1,6 @@
-#   PROJECT TITLE
+#   T-O-P CALCULATOR
 
-Here goes the description of the page explaining what it is and what it can do.
-
-![designer](./static/images/designer.gif)
+This is a follow up of The Odin Project course to sum up my skills in to attempting to create a calculator software.
 
 >Love this project? Buy me a coffee...
 
@@ -54,7 +52,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 
 ## Setup/ Installation Requirements
-- To clone this repository to your machine do this in the root directory of where you would like to save the project. Before using this be sure which url link you should use, is it for HTTP or shh.
+- To clone this repository to your machine do this in the root directory of where you would like to save the project. Before using this be sure which url link you should use, is it for HTTP or SHH.
 
     ```
     git clone https://github.com/freestyletear/top-calculator
@@ -76,4 +74,8 @@ Your browser must be JavaScript enabled for this to work
 
 ## Bug / Feature Request
 
-- If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue here > (https://github.com/freestyletear/top-calculator/issues/new).
+- If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue here...
+
+    ```
+    https://github.com/keithowino/top-calculator/fork
+    ```
