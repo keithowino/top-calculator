@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +16,14 @@ main {
   margin-bottom: 4em; }
 
 .operation-display {
-  margin: 1em auto; }
+  margin: 1em auto;
+  height: 3em;
+  width: 95%;
+  background-color: #fff; }
 
-.size {
-  border: 1px solid #000; }
+.canvas-text {
+  text-align: end;
+  font-size: 2em; }
 
 footer {
   position: fixed;
@@ -41,12 +46,8 @@ footer {
   .m-footnote-site-title-ref:hover, .m-parent-site-ref:hover {
     color: white; }
 
-.m-operation-canvas {
-  display: block;
-  width: 100%;
-  height: 3em; }
-
 .b-input {
-  margin: 0.2em auto; }
+  margin: 0.2em auto;
+  font-family: "Work Sans", sans-serif; }
 
 /*# sourceMappingURL=main-sass-compiler.css.map */
