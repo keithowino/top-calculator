@@ -4,13 +4,13 @@ This is a follow up of The Odin Project course, target attempt to create a calcu
 
 ## Take Backs...
 
-1. I learned more about event listeners for instance how to make it listens to specific targeted node, check this snippet.
+1. I learned more about event listeners for instance how to make it listen to specific targeted node, check this snippet.
 
     ```js
     e.target.innerHTML = 'AC';
     ```
 2. Learned more about the onclick="" event listener.
-3. I don't get why `querySelector()` does not work in an instance like this where the `.value` syntax is used but instade it works with `getElementById()`.
+3. I don't get why `querySelector()` does not work in an instance like this where the `.value` syntax is used but instead it works with `getElementById()`.
     ```js
     const element = document.querySelector('.node');
     const action = () => {
@@ -100,3 +100,8 @@ Your browser must be JavaScript enabled for this to work
     ```
     https://github.com/keithowino/top-calculator/fork
     ```
+
+## Future Update
+- The Odin Project suggests that using `eval()` as a means to evaluate a string of code is a bad idea, thus let's learn more about it and do the necessary changes.
+- I will add the functionality that allows a user to enter specific keyboard arguments i.e. `Enter`, `Numbers`, `Backspace` and more. [event.preventDefault](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) is a link from TOP for further assistance.
+- I will add the functionality that disables the possibility of adding a decimal if there's already one.
