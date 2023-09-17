@@ -1,8 +1,26 @@
 #   T-O-P CALCULATOR
 
-This is a follow up of The Odin Project course to sum up my skills in to attempting to create a calculator software.
+This is a follow up of The Odin Project course, target attempt to create a calculator Web Page.
 
->Love this project? Buy me a coffee...
+## Take Backs...
+
+1. I learned more about event listeners for instance how to make it listens to specific targeted node, check this snippet.
+
+    ```js
+    e.target.innerHTML = 'AC';
+    ```
+2. Learned more about the onclick="" event listener.
+3. I don't get why `querySelector()` does not work in an instance like this where the `.value` syntax is used but instade it works with `getElementById()`.
+    ```js
+    const element = document.querySelector('.node');
+    const action = () => {
+        element.value = 'placeholder';
+    };
+    ```
+
+---
+>Love this work? Buy me a coffee...
+
 
 ## Technologies Used
 
