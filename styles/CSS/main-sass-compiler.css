@@ -10,6 +10,9 @@ form {
   background-color: #fff;
   border-radius: 0.6em;
   padding: 0.3125em; }
+  form .display {
+    display: flex;
+    justify-content: flex-end; }
 
 .l-s-t-s {
   line-height: 4em;
@@ -41,18 +44,27 @@ footer {
   margin: 0.7em auto;
   color: #fff; }
 
-.m-footnote-site-title-ref, .m-parent-site-ref {
-  text-decoration: none;
-  text-transform: capitalize; }
-  .m-footnote-site-title-ref:hover, .m-parent-site-ref:hover {
-    color: white; }
-
 form input {
-  width: 2.75em;
   height: 2.75em;
-  color: #fff;
   border-radius: 0.6em;
   background-color: #131921;
+  margin: 0.5em;
+  font-size: 20px;
+  border: 0;
+  outline: 0; }
+
+form .display input {
+  box-shadow: none;
+  flex: 1;
+  text-align: right;
+  padding: 0 0.625em;
+  color: #fff; }
+
+form button.btn {
+  width: 2.75em;
+  height: 2.75em;
+  background-color: #131921;
+  color: #fff;
   margin: 0.5em;
   cursor: pointer;
   font-size: 20px;
@@ -60,21 +72,17 @@ form input {
   outline: 0;
   box-shadow: 0.4em 0.4em 0.9375em black; }
 
-.operator {
+form button.operator {
   color: #33ffd8; }
 
-.edit {
+form button.edit {
   background-color: darkred;
   color: yellow; }
 
-form .display {
-  display: flex;
-  justify-content: flex-end; }
-
-form .display input {
-  box-shadow: none;
-  flex: 1;
-  text-align: right;
-  padding: 0 0.625em; }
+.m-footnote-site-title-ref, .m-parent-site-ref {
+  text-decoration: none;
+  text-transform: capitalize; }
+  .m-footnote-site-title-ref:hover, .m-parent-site-ref:hover {
+    color: white; }
 
 /*# sourceMappingURL=main-sass-compiler.css.map */

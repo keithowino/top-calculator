@@ -10,12 +10,26 @@ const siteTileRefElement = document.querySelector(".js-site-title-ref");
 titleElement.innerHTML = appName;
 siteTileRefElement.innerHTML = appName.slice(5);
 
-/*
+let display = document.getElementById('js-display');
+let buttons = document.querySelectorAll('button');
 
-TODO    PSEUDOCODE
-*   Start by creating functions for add, subtract, multiply & divide.
-*   Create the variables for the operation.
-*   Create a function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
-*   Create the functions that populate the display when you click the number buttons.
+let output = '';
+const buttonArray = Array.from(buttons);
 
-*/
+buttonArray.forEach(button => {
+    button.addEventListener('click', (e) => {
+        if(e.target.innerHTML === '='){
+            output = eval(output);
+            display.value = output;
+        }else if(e.target.innerHTML === 'AC'){
+            output = '';
+            display.value = output;
+        }else if(e.target.innerHTML === 'DE'){
+            output = output.slice(0, -1);
+            display.value = output;
+        }else{
+            output += e.target.innerHTML;
+            display.value = output;
+        };
+    })
+});
