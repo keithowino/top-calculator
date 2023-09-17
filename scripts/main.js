@@ -2,13 +2,13 @@
 
 const appName = "(top) calculator";
 
-document.title = appName.toUpperCase();
+document.title = appName.slice(5).toUpperCase();
 
 const titleElement = document.querySelector("#js-s-t-s");
 const siteTileRefElement = document.querySelector(".js-site-title-ref");
 
 titleElement.innerHTML = appName;
-siteTileRefElement.innerHTML = appName;
+siteTileRefElement.innerHTML = appName.slice(5);
 
 /*
 

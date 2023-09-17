@@ -4,15 +4,27 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #eee; }
+  background-color: #131921; }
+
+form {
+  background-color: #fff;
+  border-radius: 0.6em;
+  padding: 0.3125em; }
 
 .l-s-t-s {
   line-height: 4em;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  color: #fff; }
 
 main {
   margin-bottom: 4em; }
+
+.card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 footer {
   position: fixed;
@@ -34,5 +46,35 @@ footer {
   text-transform: capitalize; }
   .m-footnote-site-title-ref:hover, .m-parent-site-ref:hover {
     color: white; }
+
+form input {
+  width: 2.75em;
+  height: 2.75em;
+  color: #fff;
+  border-radius: 0.6em;
+  background-color: #131921;
+  margin: 0.5em;
+  cursor: pointer;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+  box-shadow: 0.4em 0.4em 0.9375em black; }
+
+.operator {
+  color: #33ffd8; }
+
+.edit {
+  background-color: darkred;
+  color: yellow; }
+
+form .display {
+  display: flex;
+  justify-content: flex-end; }
+
+form .display input {
+  box-shadow: none;
+  flex: 1;
+  text-align: right;
+  padding: 0 0.625em; }
 
 /*# sourceMappingURL=main-sass-compiler.css.map */
